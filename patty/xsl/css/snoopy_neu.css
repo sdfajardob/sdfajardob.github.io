@@ -1,0 +1,85 @@
+/* Allgemeine CSS-Angaben */
+text {
+	white-space:pre;
+	font-family:verdana,helvetica,sans-serif;
+	font-size:10px;
+}
+
+/* Speziell zu Plätzen */
+g.Place {
+	cursor:pointer;
+}
+
+g.Place circle{
+	stroke:#000;
+	stroke-width:1;
+}
+/* Speziell zu Transitionen */
+g.Transition {
+	cursor:pointer;
+}
+
+g.Transition rect{
+	stroke:#000;
+	stroke-width:1;
+}
+
+g.CoarseTransition {
+	cursor:pointer;
+}
+
+/* Speziell zu Kanten */
+text.Edge {
+	font-family:verdana,helvetica,sans-serif;
+	font-size:10px;
+}
+
+/* Speziell zu Token */
+g.Token {
+	stroke:#000;
+	fill:#000;
+}
+
+text.Token {
+	font-family:verdana,helvetica,sans-serif;
+	font-size:10px;
+}
+
+/* kommen in JS-Datei vor */
+rect.bbox {
+	stroke:red;
+	fill:none;
+}
+
+#moveBox {
+	stroke:none;
+	fill:white;
+	opacity:0.6;
+}
+
+#stepping {
+	fill:dimgray;
+	font-size:14px;
+}
+
+#currentStep {
+	fill:dimgray;
+	font-size:14px;
+}
+
+#maxStepsText {
+	fill:dimgray;
+	font-size:14px;
+}
+#max_stepsText {
+	fill:dimgray;
+	font-size:14px;
+}
+#durationText {
+	fill:dimgray;
+	font-size:14px;
+}
+#seqHeadline {
+	fill:dimgray;
+	font-size:14px;
+}

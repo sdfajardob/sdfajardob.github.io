@@ -1,0 +1,65 @@
+text {
+	white-space:pre;
+}
+g.Place {
+	cursor:pointer;
+}
+
+g.Place circle{
+	stroke:#000;
+	stroke-width:1;
+}
+
+g.Transition {
+	cursor:pointer;
+}
+
+g.Transition rect{
+	stroke:#000000;
+	stroke-width:1;
+}
+
+g.CoarseTransition {
+	cursor:pointer;
+}
+
+g.Token {
+	stroke:#000000;
+	fill:#000000;
+}
+
+text.Token {
+	font-family:Helvetica, sans-serif;
+	font-size:11px;
+}
+
+rect.bbox {
+	stroke:red;
+	fill:none;
+}
+
+#moveBox {
+	stroke:none;
+	fill:white;
+	opacity:0.6;
+}
+
+#stepping {
+	fill:dimgray;
+	font-size:14px;
+}
+
+#currentStep {
+	fill:dimgray;
+	font-size:14px;
+}
+
+#maxStepsText {
+	fill:dimgray;
+	font-size:14px;
+}
+
+#durationText {
+	fill:dimgray;
+	font-size:14px;
+}
