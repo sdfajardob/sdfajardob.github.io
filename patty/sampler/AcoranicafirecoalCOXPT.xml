@@ -835,7 +835,7 @@
         <attribute name="Comment" id="4905" net="1">
           <![CDATA[]]>
           <graphics count="1">
-            <graphic xoff="2.45" yoff="-60.63" x="552.45" y="159.37" id="4906" net="1" show="1" grparent="4907" state="1" pen="0,0,0" brush="255,255,255" thickness="1"/>
+            <graphic xoff="2.45" yoff="-60.63" x="552.46" y="159.37" id="4906" net="1" show="1" grparent="4907" state="1" pen="0,0,0" brush="255,255,255" thickness="1"/>
           </graphics>
         </attribute>
         <attribute name="Multiplicity" id="4903" net="1">
